@@ -1,0 +1,55 @@
+body {
+	background: #000;
+}
+@keyframes loader {
+	0% {
+		width: 0;
+   }
+	15% {
+		width: 15%;
+   }
+	30% {
+		width: 30%;
+   }
+  45% {
+	width: 45%;
+}
+	60% {
+		width: 60%;
+   }
+	75% {
+		width: 75%;
+   }
+	90% {
+		width: 90%;
+   }
+	100% {
+		width: 100%;
+   }
+	
+}
+.progress-bar {
+	border-radius: 60px;
+	overflow: hidden;
+	width: 400px;
+}
+.progress-bar span {
+	display: block;
+}
+.bar {
+	background: rgba(0, 0, 0, 0.075);
+}
+.progress {
+	animation: loader 3s ease infinite;
+	background: #ffc107;
+	color: #fff;
+	padding: 2px;
+	width: 0;
+}
+.progress-bar {
+	left: 50%;
+	max-width: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate3d(-50%, -50%, 0);
+}
