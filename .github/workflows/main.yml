@@ -17,3 +17,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CERTIFICATION_EFA32 }}'
           projectId: certification-efa32
+          channelId: 'pr-${{ github.event.number }}-${{ github.event.push.head.ref }}'
