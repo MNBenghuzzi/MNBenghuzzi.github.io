@@ -17,9 +17,9 @@
                     <g id="Group-26" transform="translate(405.000000, 1.000000)">
                         <g id="logo_lockup_firebase_vertical" transform="translate(105.193370, 83.977901)">
                             <g id="_Group_">
-                                <mask id="mask-3" fill="white">
+                                <!-- <mask id="mask-3" fill="white">
                                     <use xlink:href="#path-2"></use>
-                                </mask>
+                                </mask> -->
                                 <use id="_Path_5" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
                                 <g id="_Group_2" mask="url(#mask-3)">
                                     <g transform="translate(-6.346125, -0.160154)">
