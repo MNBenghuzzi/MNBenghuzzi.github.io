@@ -1,5 +1,5 @@
 {"hosting": {
-    "public": "https://github.com/MNBenghuzzi/mnbenghuzzi.github.io", 
+    "public": ".*", 
     "ignore": [
       "firebase.json",
       "**/.*",
